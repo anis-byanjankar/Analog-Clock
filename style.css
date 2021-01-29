@@ -1,14 +1,16 @@
 body {
-    background: url('http://paper-backgrounds.com/textureimages/2012/05/white-concrete-wall-texture-background-hd.jpg') ;
+    background: #000000;
+    //url('http://paper-backgrounds.com/textureimages/2012/05/white-concrete-wall-texture-background-hd.jpg') ;
 }
 section {
     width: 80vmin;
     height: 80vmin;
     margin: auto;
-    background: #fff url('http://travisdarnell.com/wp-content/uploads/2013/12/white-linen-paper-texture1.jpg') center center;
+    background: #000000
+    // url('http://travisdarnell.com/wp-content/uploads/2013/12/white-linen-paper-texture1.jpg') center center;
     border: 3vmin solid #000;
     border-radius: 50%;
-    margin-top: 3vmin;
+    margin-top: 10vmin;
     box-shadow: 
         inset 40px 40px 90px rgba(0,0,0,.2),
         inset 10px 10px 30px rgba(0,0,0,.5), 
@@ -54,7 +56,7 @@ section:after {
 .minutehand {
     width: 25vmin;
     height: 2vmin;
-    background: #000;
+    background: #FFF;
     position: absolute;
     top: 40vmin;
     left: calc(50% - 3.5vmin);
@@ -67,7 +69,7 @@ section:after {
 .secondhand:after,
 .minutehand:after {
     content: '';
-    background: #000;
+    background: #FFF;
     width: 5vmin;
     heighta: 5vmin;
     border-radius: 50%;
@@ -131,8 +133,8 @@ section:after {
     height: 1vmin;
     width: 55vmin;
     background: transparent;
-    border-left: 7vmin solid #000;
-    border-right: 7vmin solid #000;
+    border-left: 7vmin solid #FFF;
+    border-right: 7vmin solid #FFF;
     transform: translate(-50%, -50%);
 /*     transform-origin: right bottom; */
     top: 50%;
